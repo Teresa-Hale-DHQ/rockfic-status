@@ -37,10 +37,11 @@ params:
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#ff2e2e"
   systems:
-    - name: Database
-      category: Systems
     - name: Website
       category: Systems
+    - name: Database
+      category: Systems
+      description: MongoDB
     - name: Forum
       category: Systems
   dateFormat: January 2, 2006 at 3:04 PM UTC
@@ -58,7 +59,11 @@ params:
   incidentHistoryFormat: monthly
   disableIncidentHistory: false
   ok: "#48c774"
-  categories: []
+  categories:
+    - name: Systems
+      closed: true
+      untitled: true
+      description: The heart and programmatic soul (LOL)
   description: check back here periodically to see if things are working or not!
   enableCustomHTML: true
   useLargeHeaderDesign: true
