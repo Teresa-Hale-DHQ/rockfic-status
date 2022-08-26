@@ -57,7 +57,7 @@ params:
   notice: "#7444a2"
   incidentHistoryFormat: monthly
   disableIncidentHistory: false
-  ok: "#008000"
+  ok: "#48c774"
   categories: []
   description: check back here periodically to see if things are working or not!
   enableCustomHTML: true
