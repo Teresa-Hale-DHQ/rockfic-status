@@ -62,7 +62,7 @@ params:
   categories:
     - name: Systems
       closed: true
-      untitled: true
+      untitled: false
       description: The heart and programmatic soul (LOL)
   description: check back here periodically to see if things are working or not!
   enableCustomHTML: true
