@@ -38,13 +38,11 @@ params:
   down: "#ff2e2e"
   systems:
     - name: Database
-      category: North Coast
+      category: Systems
     - name: Website
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
+      category: Systems
+    - name: Forum
+      category: Systems
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#F03A5F"
   enableLastMod: true
